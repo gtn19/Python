@@ -4,7 +4,7 @@ def P(x):
     a*(x**2)+b*x+c
     if f_delta > 0 :
         print("2 racine")
-    elif f_delta< 0:
+    if f_delta< 0:
         print("0 racine")
     else:
         print("1 racine")
