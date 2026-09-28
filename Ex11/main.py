@@ -8,3 +8,5 @@ def P(x):
         print("0 racine")
     else:
         print("1 racine")
+
+P(int(input("x :")))
