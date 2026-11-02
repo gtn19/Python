@@ -6,7 +6,7 @@ while i_turn < 10:
     i_UserNum = int(input("Entrez un nombre entre 0 et 100 : "))
     if i_UserNum == i_RandNum:
         print("Bravo ! Vous avez trouvé le nombre mystère en", i_turn, "tours.")
-        break
+        i_turn = 10
     else:
         if i_UserNum < i_RandNum:
             print("Le nombre mystère est plus grand.")
