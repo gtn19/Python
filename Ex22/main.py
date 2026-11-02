@@ -1,7 +1,10 @@
 s_urStr = input("Entrez une chaîne de caractères : ")
-while True:
-    s_urStr = s_urStr[::-1]
-    break
-print(s_urStr)
-if s_urStr == s_urStr[::-1]:
+i = 0
+s_result = ""
+while i < len(s_urStr):
+    s_result += s_urStr[len(s_urStr) - 1 - i]
+    i += 1
+print(s_result)
+
+if s_urStr == s_result:
     print("La chaîne est un palindrome.")
